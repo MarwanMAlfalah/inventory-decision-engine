@@ -94,8 +94,8 @@ inventory-decision-engine/
 ├── 📄 pyproject.toml          # Dependency management (Poetry/Pip-tools)
 ├── 📄 Makefile                # Shortcut commands (make install, make simulate)
 └── 📄 README.md               # Project overview and documentation
----
 
+```
 ## 🧪 Current Status (TRL-3)
 
 This project is currently at **Technology Readiness Level 3 (TRL-3)**.
