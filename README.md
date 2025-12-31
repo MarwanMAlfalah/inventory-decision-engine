@@ -77,6 +77,7 @@ Each recommendation includes reasoning to support trust and adoption.
 
 ## 🧩 Project Structure
 
+```text
 inventory-decision-engine/
 ├── 📱 apps/                   # Application delivery layers
 │   ├── api/                  # FastAPI service for real-time inference
@@ -93,7 +94,6 @@ inventory-decision-engine/
 ├── 📄 pyproject.toml          # Dependency management (Poetry/Pip-tools)
 ├── 📄 Makefile                # Shortcut commands (make install, make simulate)
 └── 📄 README.md               # Project overview and documentation
-
 ---
 
 ## 🧪 Current Status (TRL-3)
