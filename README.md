@@ -78,27 +78,21 @@ Each recommendation includes reasoning to support trust and adoption.
 ## 🧩 Project Structure
 
 inventory-decision-engine/
-│
-├── apps/                 # Application layers (API, dashboards)
-│   ├── api/
-│   └── dashboard/
-│
-├── packages/             # Core domain logic
-│   ├── core/             # Decision logic, policies
-│   ├── data/             # Data processing and validation
-│   └── shared/           # Shared utilities and types
-│
-├── scripts/              # Utility scripts (experiments, simulations)
-├── docs/                 # Architecture, concepts, documentation
-├── docker/               # Container-related files
-│
-├── .github/              # CI/CD workflows
-├── .env.example          # Environment variable template
-├── .gitignore
-├── pyproject.toml
-├── Makefile
-└── README.md
-
+├── 📱 apps/                   # Application delivery layers
+│   ├── api/                  # FastAPI service for real-time inference
+│   └── dashboard/            # Streamlit/React visualization for inventory metrics
+├── 📦 packages/               # Core domain & business logic (Reusable)
+│   ├── core/                 # 🧠 The Brain: Decision logic, AI policies, & RL agents
+│   ├── data/                 # 🛠️ Data pipeline: ETL, validation (Pydantic), & cleaning
+│   └── shared/               # 🔗 Shared utilities, custom types, and constants
+├── 📂 docs/                   # Architecture diagrams, ADRs, and API specs
+├── 🐳 docker/                 # Containerization (Dockerfiles & Compose)
+├── 🛠️ scripts/                # Experimentation, simulations, and data seeding
+├── ⚙️ .github/                # CI/CD Workflows (Testing & Deployment)
+├── 📄 .env.example            # Configuration template
+├── 📄 pyproject.toml          # Dependency management (Poetry/Pip-tools)
+├── 📄 Makefile                # Shortcut commands (make install, make simulate)
+└── 📄 README.md               # Project overview and documentation
 
 ---
 
